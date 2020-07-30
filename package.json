@@ -1,0 +1,31 @@
+{
+  "name": "vue-g2-charts",
+  "version": "0.0.1",
+  "description": "vue2 g2 component",
+  "main": "dist/index.js",
+  "author": "dewfall123",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "peerDependencies": {
+    "@antv/g2plot": "^1.1.17",
+    "@vue/composition-api": "^1.0.0-beta.6",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@antv/g2plot": "^1.1.17",
+    "@vue/compiler-sfc": "^3.0.0-rc.5",
+    "@vue/composition-api": "^1.0.0-beta.6",
+    "rollup": "^2.23.0",
+    "rollup-plugin-typescript2": "^0.27.1",
+    "rollup-plugin-vue": "^6.0.0-beta.9",
+    "typescript": "^3.9.7",
+    "vue": "^2.6.11"
+  },
+  "bugs": "https://github.com/dewfall123/vue-g2-charts/issues",
+  "homepage": "https://github.com/dewfall123/vue-g2-charts"
+}
