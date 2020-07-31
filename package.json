@@ -1,6 +1,6 @@
 {
   "name": "vue-g2-charts",
-  "version": "0.1.0",
+  "version": "0.2.0-1",
   "description": "vue2 g2 component",
   "main": "dist/index.js",
   "author": "dewfall123",
@@ -35,6 +35,12 @@
     "vuepress": "^1.5.2",
     "vuepress-plugin-demo-code": "^0.5.2"
   },
+  "keywords": [
+    "vue",
+    "g2",
+    "g2-plot",
+    "chart"
+  ],
   "bugs": "https://github.com/dewfall123/vue-g2-charts/issues",
   "homepage": "https://github.com/dewfall123/vue-g2-charts"
 }
