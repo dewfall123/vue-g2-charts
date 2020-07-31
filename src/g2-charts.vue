@@ -4,7 +4,7 @@
 
 <script lang="ts">
 import { defineComponent, ref, onMounted, watch } from '@vue/composition-api';
-import G2Plot from '@antv/g2plot';
+import * as G2Plot from '@antv/g2plot';
 
 export default defineComponent({
   props: {
@@ -19,10 +19,12 @@ export default defineComponent({
         console.error('[vue-g2-charts] chartRef not found ' + chartRef);
       }
       const el = (chartRef.value as unknown) as HTMLDivElement;
-      const plotInstant = new G2Plot[props.config?.type ?? 'Line'](chartRef, {
+      const plotInstant = new G2Plot[props.config?.type ?? 'Line'](el, {
         ...props.config,
         data: props.data,
       });
+
+      plotInstant.render();
 
       watch(
         () => props.config,

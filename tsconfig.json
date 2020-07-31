@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "esnext",
+    "target": "es5",
     "moduleResolution": "node",
     "jsx": "preserve",
     "esModuleInterop": true,
@@ -15,6 +15,6 @@
     "dist",
   ],
   "include": [
-    "src"
+    "src", "shim.d.ts"
   ]
 }
