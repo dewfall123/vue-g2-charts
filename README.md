@@ -27,7 +27,6 @@ $ yarn add -D vue-g2-charts @vue/composition-api @antv/g2plot
 <!-- ::: demo -->
 ```vue
 <template>
-
   <div>
     <g2-charts :data="data" :config="config" />
   </div>

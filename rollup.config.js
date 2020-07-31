@@ -1,4 +1,4 @@
-import tsPlugin from 'rollup-plugin-typescript';
+import tsPlugin from 'rollup-plugin-typescript2';
 import vuePlugin from 'rollup-plugin-vue';
 // import babelPlugin from '@rollup/plugin-babel';
 

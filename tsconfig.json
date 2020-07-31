@@ -9,12 +9,8 @@
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
     "suppressImplicitAnyIndexErrors": true,
+    "declaration": true
   },
-  "exclude": [
-    "node_modules",
-    "dist",
-  ],
-  "include": [
-    "src", "shim.d.ts"
-  ]
+  "exclude": ["node_modules", "dist"],
+  "include": ["src", "shim.d.ts"]
 }
